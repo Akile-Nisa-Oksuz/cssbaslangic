@@ -1,10 +1,43 @@
-body{
-    background-color: rgba(152, 105, 179, 0.726);
-    color: aqua;
-    font-size: 25px;
-    text-align: center;
+body {
+  background-color: rgba(226, 226, 217, 0.653);
+  color: rgb(227, 228, 228);
+  font-size: 25px;
+  text-align: center;
 }
-h1{
-    font-weight: lighter;
-    margin-top: 300px;
+.main {
+  margin-top: 150px;
+}
+.logo-img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  /* margin: apx  bpx cpx dpx (üst,sağ,alt,sol)*/
+}
+.sreach-input {
+  width: 450px;
+  height: 31px;
+  display: block;
+  margin: auto;
+  background-color: rgba(226, 226, 217, 0.653);
+  border: 3px solid rgba(140, 140, 132, 0.653);
+  border-radius: 100px;
+  text-align: center;
+  padding: 5px;
+}
+.button {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+}
+.tewt {
+  background-color: transparent;
+  border: 3px solid rgb(16, 129, 234);
+  border-radius: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(16, 129, 234);
+  padding: 10px 50px;
+  margin-top: 50px;
+  cursor: pointer;
 }
