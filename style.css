@@ -6,6 +6,7 @@ body {
 }
 .main {
   margin-top: 150px;
+  text-align: center;
 }
 .logo-img {
   width: 300px;
@@ -16,21 +17,30 @@ body {
 }
 .sreach-input {
   width: 450px;
-  height: 31px;
+  line-height: 31px;
   display: block;
   margin: auto;
-  background-color: rgba(226, 226, 217, 0.653);
-  border: 3px solid rgba(140, 140, 132, 0.653);
-  border-radius: 100px;
-  text-align: center;
-  padding: 5px;
+  background-color: rgba(195, 195, 193, 0.653);
+  padding: 10px 30px;
+  border: 1px solid rgb(255, 253, 253);
+  border-radius: 30px;
 }
-.button {
-  margin: auto;
-  margin-top: 10px;
-  display: block;
+
+.btn-contener{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
 }
-.tewt {
+
+.btn {
+  border: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: rgba(195, 195, 193, 0.653);
+}
+/*.tewt {
   background-color: transparent;
   border: 3px solid rgb(16, 129, 234);
   border-radius: 100px;
@@ -40,4 +50,4 @@ body {
   padding: 10px 50px;
   margin-top: 50px;
   cursor: pointer;
-}
+}*/
